@@ -1,0 +1,4 @@
+pi pico needs power 1.8 ~ 5.5 V [spec sheet, **19**, https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf]
+let's say 3.6 V min, 5.5 V max.
+zero current: R1 / (R1+R2) = 5.5 / 12 : R1 / R2 = 0.85
+100 mA: 12-3.6 / R1 = 3.6 / R2 + 0.1 : R2 = 48, R1 = 56.73
